@@ -7,13 +7,13 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const Footer =({navigation}) =>  {
   return (
     <View style={style.container}>
-        <TouchableHighlight style={[style.footerSubContainer,{width:"50%"}]} onPress={() => navigation.navigate("Navigations")}>
+        <TouchableHighlight style={[style.footerSubContainer,{width:"50%"}]} onPress={() => navigation.navigate("Routes")}>
         <View style={style.footerSubContainer}>
         <Icon name="user-circle" size={30} color="#22b3d4" />
         <Text style={{color:"#22b3d4"}}>Faculty</Text>
         </View>
         </TouchableHighlight>
-        <TouchableHighlight style={[style.footerSubContainer,{width:"50%"}]} onPress={() => navigation.navigate("Navigations")}>
+        <TouchableHighlight style={[style.footerSubContainer,{width:"50%"}]} onPress={() => navigation.navigate("Routes")}>
         <View style={style.footerSubContainer}>
         <Icon name="sign-out" size={30} color="#22b3d4" />
         <Text style={{color:"#22b3d4"}}>Log Out</Text>
